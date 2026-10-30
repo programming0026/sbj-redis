@@ -1,0 +1,7 @@
+# Redis local para probar el ejemplo:  docker compose up -d
+services:
+  redis:
+    image: redis:7-alpine
+    container_name: sbj-redis
+    ports:
+      - "6379:6379"
