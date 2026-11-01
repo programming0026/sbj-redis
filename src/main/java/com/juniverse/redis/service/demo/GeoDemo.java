@@ -1,4 +1,4 @@
-package com.juniverse.redis.ops;
+package com.juniverse.redis.service.demo;
 
 import java.util.ArrayList;
 import java.util.List;

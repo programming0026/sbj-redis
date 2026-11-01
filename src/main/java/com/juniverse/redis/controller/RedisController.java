@@ -1,11 +1,11 @@
-package com.juniverse.redis.web;
+package com.juniverse.redis.controller;
 
-import com.juniverse.redis.cache.Product;
-import com.juniverse.redis.cache.ProductService;
-import com.juniverse.redis.ops.SortedSetsDemo;
-import com.juniverse.redis.patterns.RateLimiter;
-import com.juniverse.redis.pubsub.MessageStore;
-import com.juniverse.redis.pubsub.Publisher;
+import com.juniverse.redis.model.Product;
+import com.juniverse.redis.service.ProductService;
+import com.juniverse.redis.service.demo.SortedSetsDemo;
+import com.juniverse.redis.service.RateLimiter;
+import com.juniverse.redis.repository.MessageStore;
+import com.juniverse.redis.messaging.Publisher;
 import java.time.Duration;
 import java.util.List;
 import java.util.Map;

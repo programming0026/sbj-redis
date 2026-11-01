@@ -1,4 +1,4 @@
-package com.juniverse.redis.ops;
+package com.juniverse.redis.service.demo;
 
 import java.nio.charset.StandardCharsets;
 import org.springframework.data.redis.connection.BitFieldSubCommands;

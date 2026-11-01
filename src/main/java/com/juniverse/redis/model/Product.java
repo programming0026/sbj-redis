@@ -1,4 +1,4 @@
-package com.juniverse.redis.cache;
+package com.juniverse.redis.model;
 
 import java.io.Serializable;
 import java.math.BigDecimal;

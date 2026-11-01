@@ -1,6 +1,6 @@
 package com.juniverse.redis.config;
 
-import com.juniverse.redis.pubsub.MessageStore;
+import com.juniverse.redis.repository.MessageStore;
 import java.time.Duration;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

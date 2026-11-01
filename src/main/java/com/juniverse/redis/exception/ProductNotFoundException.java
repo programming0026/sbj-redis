@@ -1,4 +1,4 @@
-package com.juniverse.redis.cache;
+package com.juniverse.redis.exception;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.ResponseStatus;

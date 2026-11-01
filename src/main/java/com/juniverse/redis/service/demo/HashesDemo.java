@@ -1,4 +1,4 @@
-package com.juniverse.redis.ops;
+package com.juniverse.redis.service.demo;
 
 import java.util.Map;
 import org.springframework.data.redis.core.StringRedisTemplate;

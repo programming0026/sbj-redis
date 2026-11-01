@@ -1,4 +1,4 @@
-package com.juniverse.redis.pubsub;
+package com.juniverse.redis.repository;
 
 import java.util.List;
 import java.util.concurrent.CopyOnWriteArrayList;

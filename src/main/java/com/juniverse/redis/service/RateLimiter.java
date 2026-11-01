@@ -1,4 +1,4 @@
-package com.juniverse.redis.patterns;
+package com.juniverse.redis.service;
 
 import java.time.Duration;
 import java.util.List;

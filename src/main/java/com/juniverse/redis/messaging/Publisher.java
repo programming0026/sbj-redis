@@ -1,4 +1,4 @@
-package com.juniverse.redis.pubsub;
+package com.juniverse.redis.messaging;
 
 import com.juniverse.redis.config.RedisConfig;
 import org.springframework.data.redis.core.StringRedisTemplate;

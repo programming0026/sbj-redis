@@ -1,4 +1,4 @@
-package com.juniverse.redis.cache;
+package com.juniverse.redis.service;
 
 import java.math.BigDecimal;
 import java.util.Map;
@@ -8,6 +8,8 @@ import org.springframework.cache.annotation.CacheEvict;
 import org.springframework.cache.annotation.CachePut;
 import org.springframework.cache.annotation.Cacheable;
 import org.springframework.stereotype.Service;
+import com.juniverse.redis.exception.ProductNotFoundException;
+import com.juniverse.redis.model.Product;
 
 /**
  * <b>Caché de Spring con Redis</b>: las anotaciones evitan repetir consultas lentas. El "mapa" hace de base de datos y

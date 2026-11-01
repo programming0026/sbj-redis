@@ -42,11 +42,16 @@ Ejemplo con **Spring Boot 4** y **Java 21** que se conecta a **Redis** con Sprin
 src/main/java/com/juniverse/redis/
 ├── RedisApplication.java       # @EnableCaching
 ├── config/RedisConfig.java     # política de caché y suscriptor de pub/sub
-├── ops/                        # una clase por tipo de dato (+ transacciones)
-├── pubsub/                     # Publisher y MessageStore
-├── patterns/                   # DistributedLock y RateLimiter
-├── cache/                      # Product, ProductService (caché de Spring)
-└── web/                        # RedisController (API) y DemoRunner (recorrido por consola)
+├── controller/                 # RedisController (API)
+├── service/
+│   ├── ProductService.java     # caché de Spring
+│   ├── DistributedLock.java, RateLimiter.java   # patrones
+│   └── demo/                   # una clase por tipo de dato (+ transacciones)
+├── repository/                 # MessageStore
+├── messaging/                  # Publisher
+├── model/                      # Product
+├── exception/                  # ProductNotFoundException
+└── util/                       # DemoRunner (recorrido por consola)
 ```
 
 ## Requisitos
