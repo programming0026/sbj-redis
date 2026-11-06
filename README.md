@@ -50,6 +50,7 @@ src/main/java/com/juniverse/redis/
 ├── repository/                 # MessageStore
 ├── messaging/                  # Publisher
 ├── model/                      # Product
+├── dto/                        # ProductRequest
 ├── exception/                  # ProductNotFoundException
 └── util/                       # DemoRunner (recorrido por consola)
 ```

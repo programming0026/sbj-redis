@@ -1,5 +1,6 @@
 package com.juniverse.redis.controller;
 
+import com.juniverse.redis.dto.ProductRequest;
 import com.juniverse.redis.model.Product;
 import com.juniverse.redis.service.ProductService;
 import com.juniverse.redis.service.demo.SortedSetsDemo;
@@ -69,15 +70,6 @@ public class RedisController {
     @PutMapping("/api/products/{id}")
     public Product saveProduct(@PathVariable long id, @RequestBody ProductRequest request) {
         return products.save(new Product(id, request.name(), request.price()));
-    }
-
-    /**
-     * Cuerpo de la petición para guardar un producto.
-     *
-     * @param name nombre
-     * @param price precio
-     */
-    public record ProductRequest(String name, java.math.BigDecimal price) {
     }
 
     /**
